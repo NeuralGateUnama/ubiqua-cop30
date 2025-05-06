@@ -308,7 +308,3 @@ html {
     font-family: var(--font-secundaria);
     color: var(--cor-alternativa4);
 }
-
-@media (max-width: 768px) {
-
-}
