@@ -12,10 +12,10 @@
         <div class="navbar">
             <div class="primeiraLinha">
                 <div class="RedesSociais">
-                    <a href="https://www.facebook.com/UnamaOficial/?locale=pt_BR" target="_blank"><img class='header-icon' src="assets/stash_social-facebook-solid.png" id="facebook" target="_blank"></a>
-                    <a href="https://www.youtube.com/@unamaoficial" target="_blank"><img class='header-icon' src="assets/typcn_social-youtube.png" id="youtube"></a>
-                    <a href="https://www.instagram.com/unamaoficial/?hl=pt-br" target="_blank"><img class='header-icon' src="assets/Vector.png" id="instagram"></a>
-                    <a href="https://x.com/ri_unama" target="_blank"><img class='header-icon' src="assets/Group.png" id="twitter"></a>
+                    <a href="https://www.facebook.com/UnamaOficial/?locale=pt_BR" target="_blank"><img class="header-icon" src="assets/stash_social-facebook-solid.png" id="facebook" target="_blank" style="width: 24px; height: 24px;"></a>
+                    <a href="https://www.youtube.com/@unamaoficial" target="_blank"><img class="header-icon" src="assets/typcn_social-youtube.png" id="youtube" style="width: 24px; height: 24px;"></a>
+                    <a href="https://www.instagram.com/unamaoficial/?hl=pt-br" target="_blank"><img class="header-icon" src="assets/Vector.png" id="instagram" style="width: 19px; height: 19px;"></a>
+                    <a href="https://x.com/ri_unama" target="_blank"><img class="header-icon" src="assets/Group.png" id="twitter" style="width: 18px; height: 18px;"></a>
                 </div>
                 <div class="logo">
                     <a href="#home"><img src="assets/logo.png" alt="logo"></a>
@@ -42,7 +42,7 @@
         <div>
             <img class='banner' src="assets/beautiful-landscape 1.png" alt="" id="home">
             <section class="hero">
-                    <h1 class="titulo">Amazonia, O coracaO verde do planeta.</h1>
+                    <h1 class="titulo">Amazonia, o coracao verde do planeta.</h1>
                     <h2 class="subtitulo">Conheça a força vital que regula o clima global e abriga a maior biodiversidade da Terra.</h2>
                     <button class="button">VEJA MAIS!</button>
                 </section>
@@ -79,6 +79,24 @@
                             <img class="arvore" src="assets/33806-6-jungle-tree-image 1.png" alt="">
                             <p class="titulocontagem">CONTAGEM REGRESSIVA PARA A COP30</p>
                         </div>
+                        <div class="contagem_regressiva" id="contagem_reg">
+                            <div class="contagem_card">
+                                <p class="cont_numero" id="cont_meses">00</p>
+                                <p class="cont_texto">MESES</p>
+                            </div>
+                            <div class="contagem_card">
+                                <p class="cont_numero" id="cont_dias">00</p>
+                                <p class="cont_texto">DIAS</p>
+                            </div>
+                            <div class="contagem_card">
+                                <p class="cont_numero" id="cont_horas">00</p>
+                                <p class="cont_texto">HORAS</p>
+                            </div>
+                            <div class="contagem_card">
+                                <p class="cont_numero" id="cont_minutos">00</p>
+                                <p class="cont_texto">MINUTOS</p>
+                            </div>
+                        </div>
                     </div>
             </section>
         </div>
@@ -86,5 +104,6 @@
 <footer></footer>
 
 </body>
+    <script src="https://moment.github.io/luxon/global/luxon.min.js"></script>
     <script src="script.js"></script>
 </html>

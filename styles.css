@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
 
 @font-face {
     font-family: "noiswalk";
@@ -8,6 +9,7 @@
 :root {
 --font-primaria: "Montserrat", sans-serif;
 --font-titulo-style: "noiswalk", sans-serif;
+--font-secundaria: "Oxanium", sans-serif;
 
 --backgroud-cor: #f5e4c4;
 --cor-primaira-texto:#000000;
@@ -40,8 +42,8 @@ html {
     padding: 30px;
 }
 
-.logo{
-    cursor: pointer
+.logo {
+    cursor: pointer;
 }
 
 .primeiraLinha {
@@ -285,4 +287,28 @@ html {
     position: absolute;
 }
 
-@media (max-width: 768px) 
+.contagem_regressiva {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: var(--font-secundaria);
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--cor-alternativa5);
+}
+
+.contagem_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cont_numero {
+    font-family: var(--font-secundaria);
+    color: var(--cor-alternativa4);
+}
+
+@media (max-width: 768px) {
+
+}

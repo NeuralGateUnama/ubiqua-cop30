@@ -1,16 +1,23 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const redesSociais = [
-        { 'facebook': [24, 24] },
-        { 'youtube': [24, 24] },
-        { 'instagram': [19, 19] },
-        { 'twitter': [18, 18] }
-    ]
+    const { DateTime } = luxon;
+    function atualizarContador() {
+        const agora = DateTime.now().setZone('America/Belem');
+        const inicioCOP30 = DateTime.fromISO('2025-11-10T08:00:00', { zone: 'America/Belem' });
 
-    for (let rede of redesSociais) {
-        const site = Object.keys(rede)
-        const [width, height] = rede[site]
-        
-        document.getElementById(site).style.width = `${width}px`
-        document.getElementById(site).style.height = `${height}px`
+        const diff = inicioCOP30.diff(agora, ['months', 'days', 'hours', 'minutes']).toObject();
+
+        if (agora >= inicioCOP30) {
+            document.getElementById('contagem_reg').innerHTML = `<div style="color: #05AF7F;" >A COP30 já começou!</div>`;
+            clearInterval(intervalo);
+            return;
+          }
+
+        document.getElementById('cont_meses').innerText = Math.floor(diff.months);
+        document.getElementById('cont_dias').innerText = Math.floor(diff.days);
+        document.getElementById('cont_horas').innerText = Math.floor(diff.hours);
+        document.getElementById('cont_minutos').innerText = Math.floor(diff.minutes);
+
     }
-})
+    const intervalo = setInterval(atualizarContador, 60000);
+    atualizarContador();
+});
