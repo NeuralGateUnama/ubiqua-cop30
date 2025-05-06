@@ -277,7 +277,7 @@ html {
     width: 400px;
     color: var(--cor-secundaria-texto);
     font-family: var(--font-primaria);
-    padding-left: 6em;
+    padding-left: 5.5em;
     z-index: 12;
 }
 .arvore {
@@ -291,10 +291,10 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     font-family: var(--font-secundaria);
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 500;
     color: var(--cor-alternativa5);
 }
 
