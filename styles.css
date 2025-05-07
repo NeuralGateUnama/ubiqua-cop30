@@ -319,23 +319,28 @@ html {
     flex-direction: column;
     align-items: center;
     gap: 30px;
+    height: 100vh;
 }
 
 .mini_card_cop {
     border-radius: 6px;
     border: 1px solid var(--cor-alternativa4);
     background-color: var(--cor-alternativa6);
-    color: var(--cor-alternativa4);
-    font-family: var(--font-primaria);
-    font-size: 20px;
-    font-weight: 400px;
 }
 
 .cont_card_cop {
     font-family: var(--font-primaria);
+    font-size: 25px;
+    padding: 7px 12px 7px 12px;
+    color: var(--cor-alternativa4);
+    font-weight: 800;
+}
+
+.titulo_noticias {
+    font-family: var(--font-primaria);
     font-size: 64px;
-    color: var(--cor-secundaria-texto);
-    font-weight: 400px;
+    color: var(--cor-primaria-texto);
+    font-weight: 800;
 }
 
 @media (max-width: 1400px) {
