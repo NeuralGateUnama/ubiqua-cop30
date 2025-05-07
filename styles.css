@@ -11,8 +11,8 @@
 --font-titulo-style: "noisywalk", sans-serif;
 --font-secundaria: "Oxanium", sans-serif;
 
---backgroud-cor: #f5e4c4;
---cor-primaira-texto:#000000;
+--background-cor: #f5e4c4;
+--cor-primaria-texto:#000000;
 --cor-secundaria-texto: #ffffff;
 
 --cor-alternativa1: #105b5a;
@@ -94,7 +94,7 @@ html {
     padding: 35px;
     padding-bottom: 49px;
     font-family:var(--font-primaria);
-    color: var(--cor-primaira-texto);
+    color: var(--cor-primaria-texto);
     font-weight: 650;
 }
 
@@ -143,7 +143,7 @@ html {
     font-family: var(--font-primaria);
     font-size: 1.5rem;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: var(--cor-primaira-texto);
+    -webkit-text-stroke-color: var(--cor-primaria-texto);
 }
 
 .button {
