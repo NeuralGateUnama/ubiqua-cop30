@@ -83,7 +83,7 @@ html {
 .linedivisao {
     background-color: var(--cor-alternativa4);
     margin: 0 auto;
-    width: 1327.5px;  
+    width: 1400.5px;  
     height: 2px;
 }
 
@@ -249,8 +249,11 @@ html {
     background-color: #023821;
 }
 
-.cronometro  {
+.cronometro_page {
+        height: 100vh;
         display: flex;
+        flex-direction: column;
+        gap: 85px;
         justify-content: center;
         align-items: center;
 }
@@ -309,4 +312,28 @@ html {
     font-weight: 900;
     font-size: 50px;
     color: var(--cor-alternativa4);
+}
+
+.noticias_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.mini_card_cop {
+    border-radius: 6px;
+    border: 1px solid var(--cor-alternativa4);
+    background-color: var(--cor-alternativa6);
+    color: var(--cor-alternativa4);
+    font-family: var(--font-primaria);
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.cont_card_cop {
+    font-family: var(--font-primaria);
+    font-size: 64px;
+    color: var(--cor-secundaria-texto);
+    font-weight: 400px;
 }
