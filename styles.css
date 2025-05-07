@@ -20,6 +20,7 @@
 --cor-alternativa3: #023821;
 --cor-alternativa4: #05AF7F;
 --cor-alternativa5: #F4D78A;
+--cor-alternativa6: #022825;
 }
 
 html {
@@ -256,11 +257,11 @@ html {
 
 .cronometro_card{
     margin-top: 500px;
-    width: 1200px;
+    width: 1250px;
     height: 190px;
     border-radius: 10px;
-    border: 4px solid var(--cor-alternativa4);
-    background: var(--cor-alternativa3);
+    border: 1px solid var(--cor-alternativa4);
+    background: var(--cor-alternativa6);
     display: flex;
     align-items: center;
 }
