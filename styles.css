@@ -310,3 +310,98 @@ html {
     font-size: 50px;
     color: var(--cor-alternativa4);
 }
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .primeiraLinha {
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .RedesSociais {
+        gap: 15px;
+    }
+
+    #barraDepesquisa {
+        width: 90%;
+        background-position: 95%;
+    }
+
+    .barraatalho {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .banner {
+        height: auto;
+    }
+
+    .hero {
+        padding-top: 20px;
+        padding-left: 20px;
+        gap: 15px;
+    }
+
+    .titulo {
+        font-size: 3rem;
+    }
+
+    .subtitulo {
+        font-size: 1rem;
+    }
+
+    .button {
+        width: 12rem;
+        height: 2.5rem;
+        font-size: 0.75rem;
+    }
+
+    .cards {
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .card {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .cronometro_card {
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+        margin-top: 20px;
+        padding: 20px;
+    }
+
+    .titulocontagem {
+        font-size: 24px;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .contagem_regressiva {
+        flex-direction: column;
+        gap: 20px;
+        font-size: 18px;
+    }
+
+    .cont_numero {
+        font-size: 40px;
+    }
+
+    .arvore {
+        width: 100%;
+        height: auto;
+        position: static;
+        padding-bottom: 0;
+    }
+}
