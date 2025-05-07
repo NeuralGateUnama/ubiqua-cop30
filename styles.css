@@ -337,3 +337,86 @@ html {
     color: var(--cor-secundaria-texto);
     font-weight: 400px;
 }
+
+@media (max-width: 1400px) {
+    .navbar {
+        padding: 22.5px; /* 30px reduzido em 25% */
+    }
+
+    .primeiraLinha {
+        gap: 150px; /* 200px reduzido em 25% */
+    }
+
+    #barraDepesquisa {
+        padding: 9px; /* 12px reduzido em 25% */
+        border-radius: 15px; /* 20px reduzido em 25% */
+        background-position: 93%; /* Mantido */
+    }
+
+    .barraatalho {
+        gap: 22.5px; /* 30px reduzido em 25% */
+        padding: 26.25px; /* 35px reduzido em 25% */
+        padding-bottom: 36.75px; /* 49px reduzido em 25% */
+    }
+
+    .titulo {
+        font-size: 3.75rem; /* 5rem reduzido em 25% */
+    }
+
+    .subtitulo {
+        font-size: 1.125rem; /* 1.5rem reduzido em 25% */
+    }
+
+    .button {
+        width: 10.5rem; /* 14rem reduzido em 25% */
+        height: 2.25rem; /* 3rem reduzido em 25% */
+        font-size: 0.65625rem; /* 0.875rem reduzido em 25% */
+    }
+
+    .cards {
+        gap: 15px; /* 20px reduzido em 25% */
+        padding: 15px; /* 20px reduzido em 25% */
+    }
+
+    .card {
+        padding: 9px 46.5px 21.75px 31.5px; /* 12px 62px 29px 42px reduzido em 25% */
+        width: 200.25px; /* 267px reduzido em 25% */
+        height: 321px; /* 428px reduzido em 25% */
+    }
+
+    .titulocard {
+        font-size: 22.5px; /* 30px reduzido em 25% */
+    }
+
+    .conteudocard {
+        font-size: 15px; /* 20px reduzido em 25% */
+    }
+
+    .cronometro_card {
+        width: 937.5px; /* 1250px reduzido em 25% */
+        height: 142.5px; /* 190px reduzido em 25% */
+        margin-top: 375px; /* 500px reduzido em 25% */
+        padding: 15px; /* 20px reduzido em 25% */
+    }
+
+    .titulocontagem {
+        font-size: 24px; /* 32px reduzido em 25% */
+        width: 300px; /* 400px reduzido em 25% */
+        padding-left: 4.125em; /* 5.5em reduzido em 25% */
+    }
+
+    .contagem_regressiva {
+        gap: 41.25px; /* 55px reduzido em 25% */
+        font-size: 18px; /* 24px reduzido em 25% */
+    }
+
+    .cont_numero {
+        font-size: 37.5px; /* 50px reduzido em 25% */
+    }
+
+    .arvore {
+        width: 300px; /* 400px reduzido em 25% */
+        height: 295.5px; /* 394px reduzido em 25% */
+        padding-bottom: 150px; /* 200px reduzido em 25% */
+    }
+}
