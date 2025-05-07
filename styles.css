@@ -11,7 +11,7 @@
 --font-titulo-style: "noisywalk", sans-serif;
 --font-secundaria: "Oxanium", sans-serif;
 
---background-cor: #f5e4c4;
+--background-cor: #FFF3DD;
 --cor-primaria-texto:#000000;
 --cor-secundaria-texto: #ffffff;
 
@@ -25,6 +25,7 @@
 
 html {
     scroll-behavior: smooth;
+    background-color: var(--background-cor);
 }
 
 * {
@@ -342,6 +343,22 @@ html {
     color: var(--cor-primaria-texto);
     font-weight: 800;
 }
+
+.botao_mais_artigos {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 6px;
+    border: 3px solid var(--cor-alternativa4);
+    padding:13px 24px;
+}
+.cont_card_artigos {
+    font-family: var(--font-primaria);
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--cor-primaria-texto);
+}
+
 
 @media (max-width: 1400px) {
     .navbar {
