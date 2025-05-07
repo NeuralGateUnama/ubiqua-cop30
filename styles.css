@@ -353,6 +353,10 @@ html {
         background-position: 93%; /* Mantido */
     }
 
+    .linedivisao {
+        width: 700.25px;
+    }
+
     .barraatalho {
         gap: 22.5px; /* 30px reduzido em 25% */
         padding: 26.25px; /* 35px reduzido em 25% */
@@ -418,5 +422,14 @@ html {
         width: 300px; /* 400px reduzido em 25% */
         height: 295.5px; /* 394px reduzido em 25% */
         padding-bottom: 150px; /* 200px reduzido em 25% */
+    }
+
+    .mini_card_cop {
+        font-size: 15px; /* 20px reduzido em 25% */
+        border-radius: 4.5px; /* 6px reduzido em 25% */
+    }
+
+    .cont_card_cop {
+        font-size: 48px; /* 64px reduzido em 25% */
     }
 }
