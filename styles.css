@@ -351,7 +351,15 @@ html {
     border-radius: 6px;
     border: 3px solid var(--cor-alternativa4);
     padding:13px 24px;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
 }
+
+.botao_mais_artigos:hover {
+background-color: #0b804d;
+transform: scale(1.05);
+}
+
 .cont_card_artigos {
     font-family: var(--font-primaria);
     font-size: 16px;
