@@ -172,13 +172,17 @@ html {
     transform: scale(1.05);
 }
 
+.master-cards {
+    display: flex;
+    flex-direction: row;
+}
+
 .cards {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     flex-direction: row;
-    flex-wrap: wrap;
     padding: 20px;
     width: 100%; 
     max-width: 1200px; 
